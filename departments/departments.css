@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* body{
+    margin: 0 ;
+    padding: 0 ;
+    background: url(images/background.jpg);
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* filter: blur(2px); */
+    /* height: auto; */
+    /* width: 100%; */
+
+/* main content starts here */
+main{
+    margin-top: 13vh;
+    position: relative;
+    z-index: 1;
+    display: grid;
+    /* background: rgba(10, 10, 10, 0.616); */
+
+}
+
+
+.welcome-banner{
+    width:100%;
+    height: 200px;
+
+    background: rgba(0, 0, 0, 0.705);
+
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+    padding: 50px;
+
+    box-shadow:  13px 13px 16px rgba(20, 20, 20, 0.705),
+             -13px -13px 16px rgba(20, 20, 20, 0.705);
+
+}
+
+.welcome-banner p{
+    padding: 20px;
+
+    font-size: 50px;
+
+    align-items: center;
+
+    text-align: center;
+
+    color: burlywood;
+}
+
+
+.welcome-paragraph{
+    margin-left: 150px;
+    padding: 20px;
+    width: 70%;
+
+    border-radius: 10px;
+
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    align-items: center;
+}
+
+
+.welcome-paragraph h1{
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.welcome-paragraph p{
+    margin: 10px;
+    padding: 10px;
+
+    text-align: center;
+}
+
+
+.academics, .boarding, .games-dpt{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px ;
+    margin-top: 50px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.705);
+    color: burlywood;
+}
+.academics h1{
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 20px;
+    padding: 20px;
+
+
+}
+
+
+.hod-speech-row{
+    display: grid;
+    grid-template-columns: 20% 70%;
+
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.hod-pic img{
+    width: 100%;
+    height: auto;
+
+    border-radius: 50%;
+
+    margin-right: -30px;
+}
+
+.hod-message{
+    width: 100%;
+
+    margin: 10px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.hod-message p{
+    text-align: center;
+    align-items: center;
+
+}
+
+
+.staff-performance{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 40px;
+
+}
+
+.staff-performance .staff{
+    width: 100%;
+
+    margin: 20px;
+    padding: 20px;
+
+    border: 1px solid grey;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+
+}
+.staff-performance .performance-highlight{
+    width: 100%;
+
+    margin: 20px;
+    padding: 20px;
+
+    align-self: center;
+    align-items: center;
+    text-align: center;
+
+    border: 2px solid grey;
+}
+
+tr{
+    margin-bottom: 20px;
+    border-bottom: 2px solid grey;
+}
+
+.b-title{
+    margin: 20px;
+    padding: 20px;
+
+    width: 100%;
+
+    text-align: center;
+}
+
+.quote{
+    margin: 30px 50px 20px 50px;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+
+    background: rgba(255, 255, 255, 0.3);
+
+    font-size: 25px;
+
+}
+
+
+
+.Dorms-gallery{
+    width: 90%;
+
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    left: 200px;
+    right: -200px;
+
+    border: 2px solid green;
+}
+
+
+.Dorms-gallery .gallery-pic img{
+    width: 300px;
+    height: 200px;
+
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.Dorms-gallery .gallery-pic img:hover{
+    left: 50%;
+    transform: scale(1.35);
+    transition: all 1s ease;
+    animation:backwards;
+}
+.Dorms-gallery tr th h1{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.sports-highlight{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.sports-highlight tr th{
+    border-bottom: 2px solid green;
+}
+
+.sports-highlight tr{
+    width: 100%;
+
+}
+
+.sports-highlight tr td img{
+    width: 80%;
+    border-radius: 5px;
+
+}
+
+
+.link-to-sports{
+    width: 250px;
+    padding: 10px;
+    margin: 20px 20px 20px 500px;
+
+    background: rgb(252, 220, 173);
+    align-items: center;
+    align-self: center;
+
+    text-align: center;
+    
+    font-size: 30px;
+    color: black;
+
+    border-radius: 10px;
+}
+
+.link-to-sports p a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link-to-sports:hover{
+    transform: scaleX(1.12);
+    transition: all 1s ease;
+
+    background: rgb(29, 160, 29);
+}

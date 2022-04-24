@@ -1,0 +1,89 @@
+
+.donation{
+
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    background: #522b1f;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+.donation .donate{
+    display: inline-flex;
+    align-items: center;
+
+    margin: 10px 20px 10px 50px;
+
+}
+
+.donation .donate p{
+    font-family: cursive;
+    font-size: 25px;
+    color: antiquewhite;
+    margin-right: 100px;
+    margin-left: 50px;
+    background: inherit;
+}
+
+.donation .donate a{
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 25px;
+    padding: 10px;
+
+    background: #5f4f9e;
+    color: black;
+
+    border-radius: 20px;
+
+}
+
+.donation .donate a:hover{
+    transform: scale(1.115);
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+
+
+.donation .alumni-ad{
+    display: inline-flex;
+    align-items: center;
+
+    margin: 10px 20px 10px 50px;
+}
+
+.donation .alumni-ad i{
+    margin-right: 20px;
+}
+.donation .alumni-ad p{
+    font-family: cursive;
+    font-size: 18px;
+    color: antiquewhite;
+    float: right;
+    background: inherit;
+    margin-left: 20px;
+
+}
+
+.donation .alumni-ad a{
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 18px;
+    padding: 2px;
+    /* background: #5f4f9e; */
+    color: black;
+
+    /* border-radius: 20px; */
+
+}   
+
+.donation .alumni-ad a:hover{
+    margin: 10px;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+    color: blanchedalmond;
+}
