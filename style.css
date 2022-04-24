@@ -178,7 +178,7 @@ main .statistics .stat{
 
 main .statistics .stat p{
     font-size: 30px;
-    margin: 20px;
+/*     margin: 20px; */
     padding: 10px;
 
     color: rgb(160, 144, 102);
