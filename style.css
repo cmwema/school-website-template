@@ -178,7 +178,7 @@ main .statistics .stat{
 
 main .statistics .stat p{
     font-size: 30px;
-/*     margin: 20px; */
+    margin: 20px;
     padding: 10px;
 
     color: rgb(160, 144, 102);
@@ -324,3 +324,1282 @@ main .quick-links .links .overlap .learn-more:hover{
     cursor: pointer;
 }
 
+
+
+/* about us */
+.welcome-banner{
+    width:100%;
+    height: 200px;
+
+    background: rgba(32, 31, 31, 0.705);
+
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+    padding: 50px;
+
+    box-shadow:  13px 13px 16px rgba(20, 20, 20, 0.705),
+             -13px -13px 16px rgba(20, 20, 20, 0.705);
+
+}
+
+.welcome-banner p{
+    padding: 20px;
+
+    font-size: 50px;
+
+    align-items: center;
+
+    text-align: center;
+
+    color: burlywood;
+}
+
+
+.wwa-title{
+    /* margin: 20px; */
+    /* padding: 20px; */
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    box-shadow:  17px 17px 34px #1e1d1d,
+    -17px -17px 34px #787575;
+
+}
+
+
+.wwa-title p{
+    color: rgb(126, 1, 1);
+    font: 900;
+
+    font-size: 35px;    
+}
+
+.who-we-are{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    width: 100%;
+    margin: 0;
+    padding: 100px;
+
+    align-items: center;
+}
+
+.who-we-are .sub-wrappers{
+    width: 100%;
+    
+    align-items: center;
+    text-align: center;
+
+    height: 500px;
+
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+
+    margin-top: -100px;
+}
+
+.contaner-1
+{
+    position: relative;
+    margin: 100px;
+
+    margin: 10px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-container{
+    background:blanchedalmond;
+    
+    position: absolute;
+
+    z-index: 5;
+    width: 180px;
+    height: 130px;
+    left: 80px;
+    bottom: 400px;
+
+    border-radius: 5px;
+
+    display: flex;
+
+    background: rgba(250, 250, 250, 0.8);
+    background-position: center;
+    background-repeat: no repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+
+    color: orangered;
+
+    font-size: 25px;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 900;
+
+}
+
+.title-container:hover{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-name: example;
+    animation-duration: 0.25s;
+    border-left: 8px solid red;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+}
+.description-container{
+    background: rgba(143, 104, 32, 0.781);
+    z-index: 2;
+
+    position: relative;
+
+    top: 100px;
+
+    width: 300px;
+
+    height: 500px;
+
+    /* border-radius: 30px; */
+
+    margin: 100px 20px 100px 20px;
+    padding: 150px 50px 50px 50px;
+
+    text-align: center;
+
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: 500;
+
+}
+
+
+/* principal's message
+ */
+
+.principal-msg{
+    display: grid;
+    grid-template-columns: 20% 70%;
+    
+    margin: 20px;
+    padding: 20px;
+}
+
+.principal-msg .picture img{
+    margin: 20px;
+    
+    border-radius: 50%;
+    width: 75%;
+    height: auto;
+
+}
+
+.principal-msg .message p{
+    margin-right: 50px;
+    margin-left: -20px;
+    width: 100%;
+    padding: 30px;
+
+    /* font-family: sans-serif; */
+    font-size: 18px;
+    border-radius: 10px;
+
+    background: rgba(110, 108, 108, 0.9);
+}
+
+.principal-msg .message h3{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+
+/* history section */
+
+.our-history{
+    margin: 200px 0 100px 0 ;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 0em;
+
+
+
+}
+
+.our-history .images{
+    display: flex;
+
+}
+
+.our-history .images .image-1 img{
+    position: relative;
+    width: 450px;
+    height: 400px;
+
+    z-index: 3;
+    left: 100px;
+
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    border-radius: 10px;
+
+
+
+}
+
+.our-history .images .image-1 img:hover{
+    transform: scale(1.2);
+    transition: all 2s ease;
+
+    z-index: 11;
+
+    box-shadow: black;
+
+}
+
+.our-history .images .image-2 img{
+    position: absolute;
+    
+
+    width: 250px;
+    height: 180px;
+
+    z-index: 7;
+    margin-top: 100px;
+    margin-left: -60px;
+
+    border-radius: 10px;
+
+
+}
+
+.our-history .images .image-2 p{
+    position: absolute;
+    z-index: 10;
+
+    width: 250px;
+    height: 180px;
+
+    margin-top: 100px;
+    margin-left: -60px;
+
+
+    background-color: rgba(245, 245, 220, 0.678);
+
+    align-items: center;
+
+    text-align: center;
+
+    border-radius: 10px;
+    border-left: 8px solid red;
+    color:brown;
+
+    font-size: 30px;
+    font-style: bold;
+
+    padding-left: 30px;
+    padding-top: 80px;
+
+    cursor: pointer;
+}
+
+.our-history .paragraph{
+    background-color: rgba(250, 250, 250, 0.7);
+    
+
+    /* border-radius: 20px; */
+
+    align-items: center;
+    text-align: center;
+
+    padding-top: 40px;
+    padding-left: 200px;
+
+    margin-bottom: -100px;
+    margin-left: -200px;
+    margin-right: 20px;
+    margin-top: -50px;
+}
+
+.our-history .paragraph p{
+    margin: 10px;
+    padding: 10px;
+
+}
+
+
+/* administration */
+.welcoming-remarks{
+    width: 100%;
+    height: auto;
+
+    align-items: center;
+    align-self: center;
+
+    padding: 20px;
+
+}
+
+.welcoming-remarks h1{
+    color: rgb(122, 51, 0);
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.director-sect{
+    display: grid;
+    grid-template-columns: 20% 70%;
+    grid-gap: 20px;
+
+}
+
+.pic{
+    width: 100%;
+    /* border-radius: 50%; */
+
+    border-right: 2px solid green;
+
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.pic img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.remarks{
+    padding: 20px;
+    margin: 10px;
+
+    align-items: center;
+    text-align: center;
+
+    background: rgba(250, 250, 250, 0.3);
+}
+
+.remarks p{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.teaching-staff{
+    width: 100%;
+    background: rgba(219, 211, 211, 0.3);
+
+}
+
+.teaching-staff table{
+    width: 60%;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    
+}
+
+.admn-td{
+    border: 2px solid rgb(50, 114, 34);
+    width: 30%;
+    height: 100px;
+
+}
+
+
+.teaching-staff table tr td img{
+    width: 100%;
+    height: 200%;
+}
+
+.teaching-staff table tr td h4{
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    /* margin: 20px; */
+}
+
+.teaching-staff table tr th h2, h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    margin: 20px;
+}
+
+
+
+/* admission */
+
+
+.admission-banner{
+    margin-top: 15vh;
+    width: 100%;
+
+    height: 300px;
+
+    background: rgba(0, 0, 0, 0.8);
+
+    color: rgb(255, 244, 181);
+    text-align: center;
+    align-items: center;
+
+    box-shadow:  13px 13px 16px rgba(20, 20, 20, 0.705),
+             -13px -13px 16px rgba(20, 20, 20, 0.705);
+
+}
+
+.admission-banner h1{
+    font-size: 40px;
+
+    font-family: cursive;
+
+    padding-top: 150px;
+
+}
+
+.admission-intro{
+    display: grid;
+    grid-template-columns: 30% 65%;
+
+    padding: 20px;
+    margin-top: 150px;
+
+}
+
+.overlap-div, .overlap-div img{
+    z-index: 5;
+    width: 100%;
+
+    height: auto;
+
+    margin-top: -20px;
+    margin-right: -50px;
+
+
+    border-radius: 10px;
+
+}
+
+.explanation{
+    z-index: 2;
+    width: 100%;
+    height: auto;
+    background: rgba(255, 254, 250, 0.364);
+
+    padding-right: 40px;
+    padding-top: 100px;
+    padding-left: 100px ;
+    margin-left: -100px;
+
+    
+    text-align: center;
+    align-items: center;
+
+}
+.explanation p{
+    margin: 0;
+    padding: 10px;
+
+}
+.explanation h1{
+    margin-top: -20px;
+    margin-bottom: 20px;
+
+}
+
+.download{
+    height: 200px;
+    width: 100%;
+    /* margin-top: 100px; */
+    padding: 50px;
+    color: rgb(0, 204, 255);
+
+    font-size: 30px;
+
+    text-align: center;
+    align-items: center;
+
+    background: rgba(0, 0, 0, 0.364);
+
+
+}
+
+.download p{
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+.download a{
+    text-emphasis: none;
+    text-decoration: none;
+
+    border: 1px solid grey;
+    border-radius: 10px;
+    background: rgb(14, 14, 66);
+    color: aquamarine;
+    margin: 10px;
+    padding: 10px;
+
+    cursor: pointer;
+
+}
+
+
+.download a:hover{
+    color: rgb(2, 34, 34);
+    background: goldenrod;
+    transition: all 1s ease;
+
+}
+
+.thanks{
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    text-align: center;
+    align-items: center;
+
+    color: rgb(0, 11, 46);
+    font-size: 50px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+
+/* alumni form */
+
+
+.login-form{
+    width: 400px;
+    padding: 30px;
+    top:50%;
+    left: 50%;
+
+    position: absolute;
+
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+
+.login-form h1{
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.login-form input[type="text"], input[type="date"], input[type="date"]
+{
+    border: 0;
+    background-color: none;
+
+    display: block;
+    margin: 20px;
+    text-align: center;
+    border: 3px solid #0367fd;
+    padding: 14px 10px;
+
+    width: 270px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: 0.25px;
+}
+
+.login-form input[type="text"]:focus, .login-form select
+{
+    border: 0;
+    border:3px solid gold;
+}
+
+.login-form label{
+    color: antiquewhite;
+    text-transform: uppercase;
+    /* font-weight: 700; */
+
+}
+
+.login-form select{
+    margin: 20px;
+    text-align: center;
+    border: 3px solid #0367fd;
+    padding: 14px 10px;
+
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: 0.25px;
+}
+
+.login-form input[type="submit"]{
+    width: 70px;
+    border: 0;
+    background-color: none;
+
+    display: block;
+    margin-left: 40%;
+    text-align: center;
+    border: 3px solid #ffc400ec;
+    padding: 14px 10px;
+    
+
+    outline: none;
+    color: rgb(14, 12, 12);
+    border-radius: 10px;
+    transition: 0.25px;
+    cursor: pointer;
+
+
+}
+
+.login-form input[type="submit"]:hover{
+    background: #ffc400ec;
+}
+
+
+/* cocurricular */
+.sports-gallery, .clubs-gallery{
+    background: rgba(24, 23, 23, 0.7);
+    color: bisque;
+
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    padding: 20px;
+}
+
+.sub-title
+{
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+
+
+.chess{
+    margin-left: 150px;
+}
+
+
+
+/* contact us */
+.welcome-banner{
+    width:100%;
+    height: 250px;
+
+    background: rgba(20, 20, 20, 0.829);
+
+    margin-bottom: 50px;
+    margin-top: 40px;
+
+    padding: 100px;
+
+    box-shadow:  13px 13px 16px rgba(20, 20, 20, 0.705),
+             -13px -13px 16px rgba(20, 20, 20, 0.705);
+
+}
+
+.welcome-banner p{
+    padding: 20px;
+
+    font-size: 50px;
+
+    align-items: center;
+
+    text-align: center;
+
+    color: burlywood;
+}
+
+.contact-us-table{
+    background: rgb(12, 9, 44);
+
+    margin-top: 0px;
+    z-index: -10;
+
+    padding-top: 100px;
+    padding-bottom:100px;
+}
+
+.contacts{
+    background: rgb(255, 255, 200);
+
+    border-radius: 10px;
+
+
+    /* position: absolute; */
+    z-index: 5;
+    top: -50px;
+    left: 100px;
+    margin: 20px;
+
+    padding: 20px;
+
+    display: grid;
+
+    /* position: absolute; */
+}
+
+.contacts:hover{
+    border-left: 10px solid red;
+
+    margin-right: 10px;
+    transition: all 0.3s ease;
+
+}
+
+.titles{
+    font-size: 20px;
+    font-family: fantasy;
+
+    color: rgb(0, 0, 16);
+    margin: 5px;
+    padding: 20px;
+}
+
+.phone-no a, .subs{
+    text-decoration: none;
+    color: rgb(5, 92, 5);
+
+    padding: 20px;
+    margin: 5px;
+}
+
+.contacts-subs{
+    margin-left: 20px;
+    padding: 20px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    /* border-radius: 20px; */
+}
+
+.contacts-subs:hover{
+    
+    background: rgba(128, 128, 128, 0.24);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.message-form{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+    align-items: center;
+
+    margin: 10px;
+    padding: 20px;
+
+    position: relative;
+}
+
+.name-email{
+    display: inline-flex;
+    width: 100%;
+    
+}
+
+
+
+.message-form .form-input{
+    width: 60%;
+
+    height: 20px;
+
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px 5px 20px 5px;
+    border-radius: 10px;
+
+    
+
+    background: rgba(96, 145, 96, 0.404);
+} 
+
+#subject{
+    width: 100%;
+}
+
+#msg-title{
+    color: bisque;
+
+    margin-top: -30px;
+    margin-left: 250px;
+    font-size: 30px;
+
+    font-family: cursive;
+
+}
+
+textarea{
+    width: 90%;
+
+    color: black;
+    background: rgba(114, 165, 114, 0.493);
+    padding: 20px;
+    margin: 20px;
+    text-overflow: clip ;
+}
+
+.effect:hover{
+    background: rgba(229, 255, 229);
+}
+
+
+#submit-button{
+    background: rgb(255, 89, 0);
+    color: black;
+
+    border-radius: 10px;
+    width: 100px;
+    height: auto;
+
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+
+    border: none;
+    
+}
+#submit-button:hover{
+    background: red;
+    transition: all 1s ease;
+}
+
+
+.location-row
+{
+    height: 600px;
+
+    width:100%;
+
+    background: rgb(255, 255, 200);
+
+    padding: 20px;
+
+    align-items: center;
+    text-align: center;
+
+}
+
+.map-title{
+    margin: 20px;
+    padding: 10px;
+
+    height: 30px;
+    width: 100%;
+
+    text-align: center;
+
+    font-size: 30px;
+
+}
+
+
+.map{
+    margin: 20px 20px 20px 200px;
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+/* departments */
+.welcome-banner{
+    width:100%;
+    height: 200px;
+
+    background: rgba(0, 0, 0, 0.705);
+
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+    padding: 50px;
+
+    box-shadow:  13px 13px 16px rgba(20, 20, 20, 0.705),
+             -13px -13px 16px rgba(20, 20, 20, 0.705);
+
+}
+
+.welcome-banner p{
+    padding: 20px;
+
+    font-size: 50px;
+
+    align-items: center;
+
+    text-align: center;
+
+    color: burlywood;
+}
+
+
+.welcome-paragraph{
+    margin-left: 150px;
+    padding: 20px;
+    width: 70%;
+
+    border-radius: 10px;
+
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    align-items: center;
+}
+
+
+.welcome-paragraph h1{
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.welcome-paragraph p{
+    margin: 10px;
+    padding: 10px;
+
+    text-align: center;
+}
+
+
+.academics, .boarding, .games-dpt{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px ;
+    margin-top: 50px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.705);
+    color: burlywood;
+}
+.academics h1{
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 20px;
+    padding: 20px;
+
+
+}
+
+
+.hod-speech-row{
+    display: grid;
+    grid-template-columns: 20% 70%;
+
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.hod-pic img{
+    width: 100%;
+    height: auto;
+
+    border-radius: 50%;
+
+    margin-right: -30px;
+}
+
+.hod-message{
+    width: 100%;
+
+    margin: 10px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.hod-message p{
+    text-align: center;
+    align-items: center;
+
+}
+
+
+.staff-performance{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 40px;
+
+}
+
+.staff-performance .staff{
+    width: 100%;
+
+    margin: 20px;
+    padding: 20px;
+
+    border: 1px solid grey;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+
+}
+.staff-performance .performance-highlight{
+    width: 100%;
+
+    margin: 20px;
+    padding: 20px;
+
+    align-self: center;
+    align-items: center;
+    text-align: center;
+
+    border: 2px solid grey;
+}
+
+.dpt-tr{
+    margin-bottom: 20px;
+    border-bottom: 2px solid grey;
+}
+
+.b-title{
+    margin: 20px;
+    padding: 20px;
+
+    width: 100%;
+
+    text-align: center;
+}
+
+.quote{
+    margin: 30px 50px 20px 50px;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+
+    background: rgba(255, 255, 255, 0.3);
+
+    font-size: 25px;
+
+}
+
+
+
+.Dorms-gallery{
+    width: 90%;
+
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    left: 200px;
+    right: -200px;
+
+    border: 2px solid green;
+}
+
+
+.Dorms-gallery .gallery-pic img{
+    width: 300px;
+    height: 200px;
+
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.Dorms-gallery .gallery-pic img:hover{
+    left: 50%;
+    transform: scale(1.35);
+    transition: all 1s ease;
+    animation:backwards;
+}
+.Dorms-gallery tr th h1{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.sports-highlight{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.sports-highlight tr th{
+    border-bottom: 2px solid green;
+}
+
+.sports-highlight tr{
+    width: 100%;
+
+}
+
+.sports-highlight tr td img{
+    width: 80%;
+    border-radius: 5px;
+
+}
+
+
+.link-to-sports{
+    width: 250px;
+    padding: 10px;
+    margin: 20px 20px 20px 500px;
+
+    background: rgb(252, 220, 173);
+    align-items: center;
+    align-self: center;
+
+    text-align: center;
+    
+    font-size: 30px;
+    color: black;
+
+    border-radius: 10px;
+}
+
+.link-to-sports p a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link-to-sports:hover{
+    transform: scaleX(1.12);
+    transition: all 1s ease;
+
+    background: rgb(29, 160, 29);
+}
+
+
+/* news and events */
+
+.news-events-section{
+
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 20px;
+
+    background: rgba(200, 200, 200, 0.5);
+
+    margin: 50px 20px 20px 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+.news-events-section .column{
+    margin: 20px;
+    padding: 20px;
+
+    align-items: center;
+    /* font-family: sans-serif; */
+    background: rgba(180, 180, 180, 0.815);
+
+    border-radius: 10px;
+}
+
+.news-events-section .column h3{
+    font-size: 25px;
+    text-align: center;
+    color: brown;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.news-events-section .column h3:hover,
+.news-events-section .column p:hover{
+    transform: scale(1.105);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    background: #787575;
+    padding: 20px;
+
+}
+
+.news-events-section .column p{
+    text-align: center;
+    color: rgb(14, 22, 1);
+
+}
+
+/* header */
+
+header{
+    
+    width: 100%;
+    /* height: 13vh; */
+
+}
+
+nav .nav-bar{
+    height: 15vh;
+    z-index: 20;
+    top: 0;
+    position: fixed;
+    background: rgb(0, 100, 0);
+    text-align: center;
+    width: 100%;
+}
+nav .nav-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #ffffff;
+}
+
+nav .nav-bar ul li{
+    width: 120px;
+    height: 50px;
+    margin: 15px;
+    padding: 15px;
+}
+
+nav .nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-bar ul li:hover{
+    transform: scaleX(1.12);
+    /* transition:0.5s ease; */
+    background-color:#2bab0d;
+    border-radius: 5px;
+
+    box-shadow: 0 0 15px #2bab0d
+
+}
+
+.sub-menu{
+    display: none;
+}
+
+.nav-bar ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background: rgb(0, 100, 0);
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+.nav-bar ul li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
+}
+
+
+/* footer */
