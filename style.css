@@ -2134,13 +2134,160 @@ main .quick-links .links .overlap .learn-more {
 
 
 /* about us */
+
+.wwa-title {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    box-shadow: 17px 17px 34px #1e1d1d, -17px -17px 34px #787575;
+}
+
 .main-container {
     display: block;
     align-items: center;
     justify-content: center;
     height: auto;
-    margin-top: 10px;
+    width: 100%;
+    padding: 0;
 }
+
+.contaner-1 {
+    position: relative;
+}
+
+.title-container {
+    background: blanchedalmond;
+    position: absolute;
+    z-index: 5;
+    width: 160px;
+    height: 110px;
+    left: 80px;
+    bottom: 350px;
+    border-radius: 5px;
+    /* display: flex; */
+    background: rgba(250, 250, 250, 0.8);
+
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    color: orangered;
+    font-size: 25px;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 900;
+}
+
+
+.description-container {
+    background: rgba(143, 104, 32, 0.781);
+    z-index: 2;
+    position: relative;
+    top: 100px;
+    width: 270px;
+    height: 500px;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+.our-history {
+    margin: 200px 0 100px 0;
+    display: block;
+}
+
+.our-history .images {
+    display: block;
+}
+
+.our-history .images .image-1 img {
+    position: relative;
+    width: 300px;
+    height: auto;
+    z-index: 3;
+    left: 10px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    border-radius: 5px;
+    margin-top: -150px;
+}
+
+.our-history .images .image-2 img {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    z-index: 7;
+    margin-top: -101px;
+    margin-left: 60px;
+    border-radius: 5px;
+}
+
+.our-history .images .image-2 p {
+    position: absolute;
+    z-index: 10;
+    width: 200px;
+    height: 135px;
+    margin-top: -101px;
+    margin-left: 60px;
+    background-color: rgba(245, 245, 220, 0.678);
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border-left: 8px solid red;
+    color: brown;
+    font-size: 20px;
+    /* font-style: bold; */
+    padding-left: 30px;
+    padding-top: 60px;
+    cursor: pointer;
+}
+
+.our-history .paragraph {
+    background-color: rgba(250, 250, 250, 0.7);
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-bottom: 10px;
+    margin-top: -20px;
+}
+
+.our-history .paragraph p {
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.principal-msg {
+    display: block;
+    padding: 20px;
+}
+.principal-msg .picture img {
+    margin: 20px;
+    border-radius: 50%;
+    width: 70%;
+    height: auto;
+}
+
+
+.principal-msg .message p {
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    background: rgba(110, 108, 108, 0.9);
+}
+
+.alumni-link h3 {
+    margin: 10px;
+    padding: 20px;
+    background: transparent;
+    color: orangered;
+    font-size: 25px;
+}
+
 
 
 
