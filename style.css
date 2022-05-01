@@ -1881,11 +1881,11 @@ h4 a:hover{
     position: fixed;
     display: block;
     background: #127501;
-    min-width: 350px;
+    min-width: 100%;
     height: 100vh;
     top: 0;
     right: -100%;
-    padding: 90px 50px;
+    padding: 10px 50px;
     visibility: hidden;
     overflow-y: auto;
     transition: 0.5s;
@@ -1962,20 +1962,20 @@ h4 a:hover{
   .close-btn{
     position: absolute;
     background: url(close.png)no-repeat;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background-size: 25px;
     background-position: center;
     top: 0;
     left: 0;
-    margin: 25px;
+    margin: 5px;
     cursor: pointer;
   }
 
   .menu-btn{
     background: url(menu.png)no-repeat;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background-size: 30px;
     background-position: center;
     cursor: pointer;
@@ -2018,7 +2018,7 @@ h4 a:hover{
 }
 
 main .statistics {
-    width: 300px;
+    width: 100%;
     height: auto;
     background: rgba(58, 30, 11, 0.981);
     display: block;
@@ -2026,18 +2026,18 @@ main .statistics {
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin: 20px;
+    margin: 0px;
 }
 
 main .quick-links {
-    width: 300px;
+    width: 100%;
     height: auto;
     margin: 0px;
     padding: 20px;
     display: block;
 }
 main .quick-links .links {
-    width: 300px;
+    width: 100%;
     height: 200px;
     align-items: center;
     text-align: center;
