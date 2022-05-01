@@ -12,39 +12,36 @@
     <!-- <link rel="text/javascript" href=""> -->
     <!-- <link rel="stylesheet" href="donattion.css"> -->
     <link rel="stylesheet" href="about us/abt_style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+    <script src="header.js"></script>
 </head>
 <body>
 
     <header>
-        <nav>
-            <div class="nav-bar">
-                <ul>
-                    <li class="active"></i><a href="/index.html" >Home</a></li>
-                    <li><a href="about us/index.html" target="display"">About us</a></li>
-                    <li><a href="administration/admin.html" target="display">Administration</a></li>
-                    <li>Departments
-                        <div class="sub-menu">
-                            <ul>
-                                <li><a href="departments/academics.html" target="display">Academics</a></li>
-                                <li><a href="departments/boarding.html">Boarding</a></li>
-                                <li><a href="departments/games.html">Sports</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href="admission/admission.html">Admission</a></li>
-                    <li><a href="co curricular/cocurricular.html" target="display">Co curricular</a></li>
-                    <li><a href="news and events/index.html" target="display">News</a></li>
+        <a href="#" class="logo">CALEBSON</a>
+        <div class="navigation">
+          <ul class="menu">
+            <div class="close-btn"><i class="fa fa-close"></i></div>
+            <li class="menu-item"><a href="#">Home</a></li>
+            <li class="menu-item"><a href="about us/index.html">About</a></li>
+            <li class="menu-item"><a href="administration/admin.html">Administration</a></li>
 
-                    <li><a href="contact us/index.html" target="display">Contact us</a></li>
-
-                </ul>
-            </div>
-
-        </nav>
-
-        
-        
-    </header>
+            <li class="menu-item">
+              <a class="sub-btn">Departments <i class="fas fa-angle-down"></i></a>
+              <ul class="sub-menu">
+                <li class="sub-item"><a href="departments/academics.html">Academics</a></li>
+                <li class="sub-item"><a href="departments/boarding.html">Boarding</a></li>
+                <li class="sub-item"><a href="departments/games.html">Games</a></li>
+              </ul>
+            </li>
+            <li class="menu-item"><a href="admission/admission.html">Admission</a></li>
+            <li class="menu-item"><a href="co curricular/cocurricular.html">Co curricular</a></li>
+            <li class="menu-item"><a href="news and events/index.html">News</a></li>
+            <li class="menu-item"><a href="contact us/index.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="menu-btn"><i class="fa fa-bars"></i></div>
+      </header>
     
     <!-- donation kitty link -->
     <!-- main content -->
@@ -54,7 +51,7 @@
             <p>Welcome to Calebson High School</p>
         </div>
         <div class="intro-vid">
-            <video src="vids/Regional_Science_High_School-IX_|_A_tour_of_the_school's_facilities,_classrooms,_parks_and_students!(360p).mp4" controls></video>
+            <video src="vids/Regional_Science_High_School-IX_|_A_tour_of_the_school's_facilities,_classrooms,_parks_and_students!(360p).mp4" controls autoplay></video>
 
         </div>
 
@@ -103,7 +100,7 @@
             <div class="links">
                 <img src="images/cafeteria.png" class="image">
                 <div class="overlap">
-                    <p>News and Events</p>
+                    <p>News</p>
                     <a class="learn-more" href="news and events/index.html">Learn more</a>
 
                 </div>
@@ -119,54 +116,7 @@
             </div>
         </div>
 
-        <div class="row3">
-            <div class="highlights-slider">
-                <div class="sliders">
-    <!-- radio buttons -->
-                    <input type="radio" name="radio-btn" id="radio1"> 
-    
-                    <input type="radio" name="radio-btn" id="radio2">
-                    <input type="radio" name="radio-btn" id="radio3">
-                    <input type="radio" name="radio-btn" id="radio4">
-    
-                    <!-- slide start -->
-                    <div class="slide first">
-                        <img src="images/slider1.jpg" alt="">
-                        <!-- <p class="welcome">welcome to :</p>
-                        <p class="school-name">Calebson High School</p> -->
-                    </div>
-                    <div class="slide">
-                        <img src="images/slider2.jpg" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="images/slider3.jpg" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="images/slider4.jpg" alt="">
-                    </div>
-                    <!-- slide end -->
-    
-                    <!-- automatic navigation start -->
-                    <div class="navigation-auto">
-                        <div class="auto-btn1"></div>
-                        <div class="auto-btn2"></div>
-    
-                        <div class="auto-btn3"></div>
-                        <div class="auto-btn4"></div>
-    
-                    </div>
-                    <!-- automatic navigation end -->
-                </div>
-                <!-- manual navigation  -->
-                <div class="navigation-manual">
-                    <label for="radio1" class="manual-btn"></label>
-                    <label for="radio2" class="manual-btn"></label>
-                    <label for="radio3" class="manual-btn"></label>
-                    <label for="radio4" class="manual-btn"></label>
-                </div>
-    
-            </div>
-        </div>
+        
 
 
         <!-- alumni link -->
@@ -176,6 +126,40 @@
             <p>Join the alumni community abd access hundreds of features and talk to thousands of former students and teachers.</p>
             <a href="alumni/login.html">Join Now.</a>
         </div>
+
+        <script type="text/javascript">
+            //jquery for toggle dropdown menus
+            $(document).ready(function(){
+              //toggle sub-menus
+              $(".sub-btn").click(function(){
+                $(this).next(".sub-menu").slideToggle();
+              });
+        
+              //toggle more-menus
+              $(".more-btn").click(function(){
+                $(this).next(".more-menu").slideToggle();
+              });
+            });
+        
+            //javascript for the responsive navigation menu
+            var menu = document.querySelector(".menu");
+            var menuBtn = document.querySelector(".menu-btn");
+            var closeBtn = document.querySelector(".close-btn");
+        
+            menuBtn.addEventListener("click", () => {
+              menu.classList.add("active");
+            });
+        
+            closeBtn.addEventListener("click", () => {
+              menu.classList.remove("active");
+            });
+        
+            //javascript for the navigation bar effects on scroll
+            window.addEventListener("scroll", function(){
+              var header = document.querySelector("header");
+              header.classList.toggle("sticky", window.scrollY > 0);
+            });
+            </script>
 
     </main>
 
