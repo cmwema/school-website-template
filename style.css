@@ -2249,9 +2249,9 @@ main .quick-links .links .overlap .learn-more {
     text-align: center;
     padding-top: 40px;
     padding-left: 10px;
-    padding-right:10px;
+    padding-right: 10px;
     padding-bottom: 10px;
-    margin-top: -20px;
+    margin: 10px;
 }
 
 .our-history .paragraph p {
@@ -2295,6 +2295,3 @@ main .quick-links .links .overlap .learn-more {
 
 }
       
-
-
-/* footer */
