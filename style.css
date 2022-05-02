@@ -2489,6 +2489,146 @@ h4 a:hover{
 
     
 
+    .welcome-paragraph {
+        margin-left: 0;
+        padding: 10px;
+        width: 100%;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.5);
+        text-align: center;
+        align-items: center;
+        align-self: center;
+    }
+    .academics, .boarding, .games-dpt {
+        width: 100%;
+        margin-top: 50px;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.705);
+        color: burlywood;
+    }
+
+    .hod-speech-row {
+        display: block;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+    .hod-pic img {
+        width: 200px;
+        height: auto;
+        border-radius: 50%;
+        border-bottom: 2px solid green;
+        margin: 10px;
+    }
+    
+    .hod-message {
+        width: 100%;
+        margin: 0px;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hod-message p {
+        text-align: center;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .staff-performance {
+        width: 100%;
+        padding: 10px;
+        display: block;
+    }
+
+    .staff-performance .staff {
+        width: 90%;
+        margin: 0px;
+        padding: 10px;
+        border: 1px solid grey;
+        text-align: center;
+        align-self: center;
+        align-items: center;
+        font-size: 13px;
+    }
+
+    .staff-performance .performance-highlight {
+        width: 90%;
+        margin-top: 20px;
+        padding: 10px;
+        align-self: center;
+        align-items: center;
+        text-align: center;
+        border: 2px solid grey;
+        font-size: 13px;
+    }
+
+
+
+    .quote {
+        margin: 10px;
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.3);
+        font-size: 15px;
+    }
+    .Dorms-gallery {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 2px;
+        border: 2px solid green;
+    }
+
+    .Dorms-gallery .gallery-pic img {
+        width: 100px;
+        height: auto;
+        border: 1px solid black;
+        border-radius: 0;
+    }
+
+    .sports-highlight {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .sports-highlight tr td img {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .sports-highlight tr td img:hover {
+        transition: 0.3s;
+        transform: scale(1.2);
+        transition-property: transform;
+        position: absolute;
+    }
+
+    .link-to-sports {
+        width: 100px;
+        padding: 10px;
+        margin: 10px;
+        background: rgb(252, 220, 173);
+        align-items: center;
+        align-self: center;
+        text-align: center;
+        font-size: 13px;
+        color: black;
+        border-radius: 2px;
+    }
+
+    .sports-overlay{
+        font-size: 10px;
+
+    }
+
+
+
+
+
+
 
 
 
