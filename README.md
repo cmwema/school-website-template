@@ -1,7 +1,6 @@
 # School Website Template
 
-Welcome to the School Website Template! This template is designed to assist educational institutions in creating a modern and informative online presence. Whether you're an elementary school, high school, or even a college, this template is customizable to suit your needs.
-
+This is a simple beginner friendly website designed using html and css. Its design covers most of html and css usage, ranging from responsive design and much more.
 ## Features
 
 - **Responsive Design**: This template is built with responsiveness in mind, ensuring that your website looks great on any device, be it a desktop, tablet, or smartphone.
